@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitReturns": false,
+    "noUnusedLocals": false,
+    "outDir": "lib",
+    "sourceMap": true,
+    //    "strict": true,
+    "target": "es2017",
+//    "noImplicitAny": false,
+    // つけたいけど既存ソースへの影響が大きすぎるためまた今度（リポジトリ分割とかしたらつけたい）
+    //    "esModuleInterop": true,
+    "noUnusedParameters": false,
+    "strictPropertyInitialization": false
+  },
+  "compileOnSave": true,
+  "include": [
+    "src"
+  ]
+}
